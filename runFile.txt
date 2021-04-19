@@ -1,0 +1,6 @@
+--> npm init // to initialize 
+--> download sass in current folder 
+--> Add "compile:sass": "node-sass sass/main.scss css/style.css -w" in Script in the package.json file, where "w" stands for constant watching for anyy changes.
+ 
+// To run sass file 
+--> npm run compile:sass
